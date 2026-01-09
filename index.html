@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Đồ án 3</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h2 {
+            margin: 0;
+            color: #007bff;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+        .header h1 {
+            margin: 10px 0;
+            font-size: 2rem;
+            color: #2c3e50;
+        }
+        .header p {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .student-info {
+            background-color: #ffffff;
+            padding: 0;
+            margin-bottom: 30px;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .student-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .student-table th {
+            background-color: #007bff;
+            color: white;
+            text-align: left;
+            padding: 12px 20px;
+            font-weight: 600;
+        }
+        .student-table td {
+            padding: 12px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            color: #495057;
+        }
+        .student-table tr:last-child td {
+            border-bottom: none;
+        }
+        .mssv-col {
+            width: 30%; 
+            font-weight: bold;
+            color: #d63384;
+        }
+
+        .status-card {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border: 1px solid #c3e6cb;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .version-badge {
+            background-color: #dc3545;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>ĐỒ ÁN 3: CI/CD PIPELINE</h1>
+            <p>Môn học: MẠNG MÁY TÍNH NÂNG CAO</p>
+        </div>
+
+        <div class="student-info">
+            <table class="student-table">
+                <thead>
+                    <tr>
+                        <th>Họ và Tên</th>
+                        <th>MSSV</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>CAO ANH KHOA</strong></td>
+                        <td class="mssv-col">22120161</td>
+                    </tr>
+                    <tr>
+                        <td><strong>NGUYỄN TUẤN KIỆT</strong></td>
+                        <td class="mssv-col">22120173</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="status-card">
+            TRẠNG THÁI: DEPLOY THÀNH CÔNG <br>
+            <span style="font-size: 0.8em; font-weight: normal; margin-top: 10px; display: block;">
+                Phiên bản hệ thống: <span class="version-badge">v1.0</span>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
